@@ -11,6 +11,7 @@ body {
 }
 .main-header {
   position: sticky;
+  position: -webkit-sticky;
   top: 0;
   height: 80px;
   background: #ffffff;
