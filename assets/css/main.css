@@ -10,9 +10,10 @@ body {
   width: auto !important;
 }
 .main-header {
-  position: sticky;
   position: -webkit-sticky;
+  position: sticky;
   top: 0;
+  display: block;
   height: 80px;
   background: #ffffff;
   z-index: 9;
