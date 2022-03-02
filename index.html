@@ -366,7 +366,7 @@
             // canvasRef.clientWidth = 600;
             // canvasRef.clientHeight = 850;
 
-            var camera, scene, renderer, meshs, material, stats, plane, planeBuffer, controls, width, height, hover;
+            var camera, scene, renderer, meshs,mesh, material, mixer, stats, plane, planeBuffer, controls, width, height, hover, clock = new THREE.Clock();
             let mouseX = 0, mouseY = 0;
             var check = false;
             let windowHalfX = 910 / 2;
@@ -416,6 +416,7 @@
                 scene.add(light);
 
 
+
                 const directionalLight = new THREE.DirectionalLight(0xffffff, 10);
                 scene.add(directionalLight);
 
@@ -456,11 +457,14 @@
                     objectUrl, //1
                     object => {
                         meshs = object;
+                        mesh = object;
                         meshs.rotation.x = -120;
+                        mesh.position.y = -120;
                         meshs.scale.set(1.1, 1.1, 1.1);
+                        mesh.scale.set(1.1, 1.1, 1.1);
                         // meshs.rotation.y = 180;
 
-                        scene.add(meshs);
+                        scene.add(meshs,mesh);
                         camera.position.x = 23;
 
 
@@ -478,6 +482,10 @@
 
             function animate() {
                 requestAnimationFrame(animate);
+                if (mesh) {
+                    mesh.position.y = Math.sin(Date.now() * 0.001) * Math.PI * 0.5;
+                }
+
                 render();
 
             }
