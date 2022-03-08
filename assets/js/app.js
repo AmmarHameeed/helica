@@ -2,7 +2,10 @@ setTimeout(function () {
     $(".loader").hide();
 }, 1000);
 $(document).ready(function () {
-    AOS.init();
+    AOS.init({
+        once: true,
+        easing: "linear",
+    });
 
     gsap.registerPlugin(ScrollTrigger);
     gsap.utils.toArray(".revealUp").forEach(function (elem) {
@@ -36,7 +39,6 @@ $(document).ready(function () {
     });
 
     $('.hamburger-icon-outer').click(function () {
-        console.log("Ordered to open the menu")
         $(this).toggleClass('open');
         $(".mobile-menu").toggleClass('open');
     });

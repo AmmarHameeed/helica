@@ -1,4 +1,4 @@
-html {
+html,body {
   overflow-x: hidden;
 }
 body {
@@ -51,7 +51,7 @@ body {
   border-radius: 100px;
   font-weight: 500;
   font-size: 14px;
-  margin-left: 48px;
+  margin-left: 24px;
   letter-spacing: -0.02em;
   text-decoration: none;
   cursor: pointer;
@@ -166,7 +166,7 @@ body {
   background: #060e9f;
 }
 .bs-vantagens-wrapper {
-  padding-top: 100px;
+  /* padding-top: 100px; */
   display: flex;
   flex-wrap: wrap;
 }
@@ -259,8 +259,11 @@ body {
   color: white;
 }
 .bs-seaction-heading {
-  margin-bottom: 100px;
+  margin-bottom: 68px;
 }
+/* .benefits-section .bs-seaction-heading {
+  margin-bottom: 68px;
+} */
 .service-list-item {
   display: flex;
   margin-bottom: 32px;
@@ -511,6 +514,7 @@ width: 50%;
 
 .carbon-neutral-section {
   padding-top: 248px;
+  background: #f7f8f9;
 }
 .section-head {
   text-align: center;
@@ -600,7 +604,7 @@ width: 50%;
   margin-top: -83px;
   padding-top: 83px;
   text-align: center;
-  background: #f7f8f9;
+  /* background: #f7f8f9; */
 }
 .green-animation-section svg {
   max-width: 812px;
