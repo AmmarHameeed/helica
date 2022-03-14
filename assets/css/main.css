@@ -261,9 +261,6 @@ body {
 .bs-seaction-heading {
   margin-bottom: 68px;
 }
-/* .benefits-section .bs-seaction-heading {
-  margin-bottom: 68px;
-} */
 .service-list-item {
   display: flex;
   margin-bottom: 32px;
@@ -513,6 +510,7 @@ width: 50%;
 }
 
 .carbon-neutral-section {
+  height: 873px;
   padding-top: 248px;
   background: #f7f8f9;
 }
@@ -601,7 +599,7 @@ width: 50%;
 }
 .green-animation-section {
   height: 527px;
-  margin-top: -83px;
+  /* margin-top: -83px; */
   padding-top: 83px;
   text-align: center;
   /* background: #f7f8f9; */
@@ -1151,6 +1149,7 @@ width: 50%;
     text-align: center;
   }
   .carbon-neutral-section {
+    height: 965px;
     padding-top: 170px;
   }
   .mission-section {
@@ -1243,4 +1242,7 @@ width: 50%;
   #green-hero-img-wrapper svg{
     width: 150% !important;
   }
+  .nav-pills .nav-link:last-child {
+    margin-bottom: 40px;
+}
 }
