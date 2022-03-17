@@ -938,6 +938,9 @@ width: 50%;
 .d-show-mobile{
   display: inline-block;
 }
+.bs-vantage-desc{
+  margin-top: 16px;
+}
 #canvas1{
   height: 100vw !important;
   margin-top: unset;
@@ -1066,7 +1069,7 @@ width: 50%;
     padding: 40px 0;
   }
   .bs-seaction-heading {
-    margin-bottom: 50px;
+    margin-bottom: 20px;
   }
   .bs-vantagens-wrapper {
     padding-top: 0;
@@ -1149,11 +1152,12 @@ width: 50%;
     text-align: center;
   }
   .carbon-neutral-section {
-    height: 965px;
-    padding-top: 170px;
+    height: 785px;
+    padding-top: 62px;
   }
   .mission-section {
-    height: 850px;
+    height: auto;
+    padding-top: 143px;
   }
   .mission-card-wrapper {
     flex-flow: column;
@@ -1161,6 +1165,9 @@ width: 50%;
   .om-card-item {
     width: 100%;
     margin-right: 0 !important;
+  }
+  .om-heading-text{
+    margin-bottom: 32px;
   }
   .cn-heading-text {
     margin-bottom: 80px;
@@ -1186,14 +1193,16 @@ width: 50%;
     margin-top: 16px;
   }
   .green-animation-section {
-    height: 504px;
-    margin-top: -100px;
+    height: 300px;
+    margin-top: 100px;
+    padding-top: 100px;
   }
   .movement-section {
-    padding: 40px 0;
+    padding: 100px 0 40px;
   }
   .ms-heading-text {
     font-size: 14px;
+    margin-bottom: 32px;
   }
   .movement-event-card {
     flex-flow: column;
