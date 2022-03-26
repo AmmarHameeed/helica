@@ -397,8 +397,10 @@ footer {
   width: 100%;
   padding-left: 10%;
 } */
+
 .right-image-wrapper{
 width: 50%;
+text-align: right;
 }
 .service-image-container {
   /* width: 50%; */
@@ -1237,6 +1239,9 @@ width: 50%;
   .hero-img-wrapper.green-hero-img-wrapper{
     max-width: 75%;
   }
+  #sw_pill-container{
+  margin-left: 0 !important;
+  }
 }
 @media screen and (max-width: 576px) {
   .service-image-container img{
@@ -1254,4 +1259,7 @@ width: 50%;
   .nav-pills .nav-link:last-child {
     margin-bottom: 40px;
 }
+#sw_pill-container{
+  margin-left: 0 !important;
+  }
 }
