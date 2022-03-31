@@ -363,6 +363,7 @@ footer {
   line-height: 80px;
 }
 .footer-lower p {
+  margin-bottom: 0;
   font-weight: normal;
   font-size: 12px;
   text-align: center;

@@ -1,7 +1,9 @@
-setTimeout(function () {
-    $(".loader").hide();
-}, 1000);
+
 $(document).ready(function () {
+    $(".loader").hide();
+    // setTimeout(function () {
+       
+    // }, 100);
     AOS.init({
         once: true,
         easing: "linear",
