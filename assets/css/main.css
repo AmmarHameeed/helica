@@ -1250,7 +1250,9 @@ text-align: right;
     width: calc(100vw + 0px);
   }
   #green-hero-img-wrapper{
-    right: -10px;
+    overflow-x: hidden;
+    right: 0px;
+    /* right: -10px; */
     bottom: -90px;
   }
   #green-hero-img-wrapper svg{
